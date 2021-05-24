@@ -1,0 +1,159 @@
+.post {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin: 10px 0;
+	border: 1px solid rgb(197, 197, 197);
+	border-radius: 4px;
+	box-shadow: 6px 7px 16px -7px rgba(0, 0, 0, 0.15);
+	transition: transform 0.3s ease;
+	transition: box-shadow 0.3s ease;
+	background-color: white;
+}
+
+.post-user {
+	margin: 15px;
+	margin-bottom: 5px;
+	display: flex;
+	div {
+		margin-right: 10px;
+		align-items: center;
+		p {
+			color: #65676b;
+			font-weight: 500;
+		}
+	}
+}
+
+.post-user-delete {
+	flex: 1;
+	text-align: right;
+	margin: 0 !important;
+	button {
+		background-color: transparent;
+		color: rgb(200, 117, 117);
+	}
+}
+
+.post-data {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.post-text {
+	margin: 10px 15px;
+	margin-top: 0;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.post-img {
+	max-height: 550px;
+	max-width: 660px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-align: center;
+	overflow: hidden;
+
+	img {
+		object-fit: cover !important;
+		max-height: 550px;
+		max-width: 661px;
+		@media only screen and (max-width: 860px) {
+			max-width: 600px;
+		}
+		@media only screen and (max-width: 760px) {
+			max-width: 500px;
+		}
+		@media only screen and (max-width: 660px) {
+			max-width: 400px;
+		}
+		@media only screen and (max-width: 500px) {
+			max-width: 350px;
+		}
+	}
+}
+
+.post-reaction-right {
+	flex: 1;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.post-actions {
+	display: flex;
+
+	button {
+		margin: 5px;
+		flex: 1;
+		cursor: pointer;
+		height: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 10px;
+		background-color: white;
+		transition: background-color 0.2s ease;
+		color: #65676b;
+	}
+
+	.MuiSvgIcon-root {
+		color: #7dabb4;
+	}
+
+	button:hover:hover {
+		background-color: rgba(243, 232, 221, 0.596);
+		color: #7f898b;
+	}
+}
+
+.post-divider-1,
+.post-divider-2 {
+	width: 98%;
+	height: 1px;
+	background-color: rgba(187, 187, 187, 0.349);
+	margin: auto;
+}
+.post-divider-1 {
+	margin-top: 10px;
+}
+
+.post-divider-2 {
+	margin-bottom: 5px;
+}
+
+.post-reply {
+	display: flex;
+	align-items: center;
+	div {
+		margin: 10px 15px;
+		margin-bottom: 15px;
+	}
+}
+
+.post-reaction-left {
+	display: flex;
+	flex: 1;
+}
+
+.post-reaction {
+	display: flex;
+	margin-left: 10px;
+	p {
+		margin: 0 5px;
+	}
+}
+
+.post-reaction-like {
+	transform: translateY(-2px);
+}
+.post-reaction-youLiked {
+	margin-left: 5px;
+}
+
+.post-reaction-container {
+	display: flex;
+	color: #65676b;
+	margin-top: 10px;
+}

@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  color: black;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, canvas {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  height: 7vh;
+  background-color: white;
+  -webkit-box-shadow: 0px 13px 47px -19px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 0px 13px 47px -19px rgba(0, 0, 0, 0.69);
+  box-shadow: 0px 13px 47px -19px rgba(0, 0, 0, 0.69);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2.5rem;
+}
+
+.color-flipper {
+  color: rgb(66, 150, 230);
+  font-weight: 500;
+}
+
+.main-container {
+  height: 93vh;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-display {
+  text-align: center;
+  width: 30rem;
+  border-radius: 6px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.click-btn {
+  background-color: rgb(30, 30, 30);
+  padding: 0.5rem 1rem;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+.click-btn:hover {
+  background-color: rgb(20, 20, 20);
+}
+
+.simple-btn {
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.hex-btn {
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.selected {
+  font-weight: 600;
+}

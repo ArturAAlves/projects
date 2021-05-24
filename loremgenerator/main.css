@@ -1,0 +1,78 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  color: rgb(40, 40, 40);
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, canvas {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: antiquewhite;
+  padding: 5rem
+}
+
+.tittle {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.lorem-form {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+#amout {
+  font-size: 3rem;
+  width: 6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  margin: 0;
+  margin: 0 1rem;
+}
+
+.btn {
+  background-color: rgb(79, 79, 128);
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.lorem-container {
+  padding: 3rem;
+  font-size: 1.6rem;
+}

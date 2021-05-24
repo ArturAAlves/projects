@@ -1,0 +1,11 @@
+.main {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: bisque;
+}
+.main h2 {
+  background-color: aqua;
+}

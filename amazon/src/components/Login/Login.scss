@@ -1,0 +1,123 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	height: 70vh;
+	background-color: white;
+	width: 340px;
+	margin: auto;
+	margin-top: 50px !important;
+}
+
+.login-img {
+	width: 115px;
+	object-fit: contain;
+	margin: 20px 0;
+	img {
+		width: inherit;
+		object-fit: contain;
+	}
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgb(206, 206, 206);
+	border-radius: 5px;
+	max-width: 300px;
+	padding: 20px;
+
+	h1 {
+		font-size: 30px;
+		font-weight: 400;
+	}
+
+	p {
+		font-size: 12px;
+		line-height: 1.5;
+		a {
+			color: #0066c0;
+		}
+	}
+}
+
+.login-form-container {
+	margin: 15px 0;
+	h5 {
+		margin: 5px 0;
+	}
+
+	input {
+		width: 94%;
+		height: 24px;
+		border: 1px solid rgb(156, 156, 156);
+		border-radius: 3px;
+		background-color: #e8f0fe;
+		padding-left: 5px;
+	}
+
+	button {
+		margin-top: 15px;
+		border: 1px solid;
+		border-color: #a88734 #9c7e31 #846a29;
+		padding: 7px 0px;
+		width: 97%;
+		border-radius: 4px;
+		background-color: #f2cc6b;
+		background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+	}
+
+	button:hover {
+		background: linear-gradient(to bottom, #f8dc9c, #eeb117);
+	}
+}
+
+.login-bar {
+	// display: flex;
+	// align-items: center;
+	position: relative;
+	width: 340px;
+	display: block;
+	margin-top: 8px;
+
+	p {
+		position: relative;
+		margin: 12px auto;
+		z-index: 3;
+		text-align: center;
+		font-size: 12px;
+		color: rgb(124, 124, 124);
+		background-color: white;
+		width: 120px;
+		white-space: nowrap;
+	}
+}
+
+.login-bar::after {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 100%;
+	top: 50%;
+	background-color: #e7e7e7;
+	height: 1px;
+}
+
+.login-createAcc {
+	width: 100%;
+	height: 29px;
+	button {
+		height: inherit;
+		width: inherit;
+		display: block;
+		height: 29px;
+		background-color: #eff0f3;
+		background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+		border: 1px solid #adb1b8;
+		border-radius: 5px;
+	}
+	:hover {
+		background: linear-gradient(to bottom, #f7f8fa, #ced2d8);
+	}
+}

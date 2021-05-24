@@ -1,0 +1,13 @@
+.app-body {
+	min-height: 91vh;
+	display: flex;
+	background-color: #faf9f7;
+	overflow-x: hidden !important;
+
+	@media only screen and (max-width: 650px) {
+		justify-content: center;
+	}
+}
+
+//Boxes	background-color: rgb(246, 242, 233);
+//inner border: 1px solid rgb(223, 223, 223);

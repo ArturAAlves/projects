@@ -1,0 +1,45 @@
+.embed {
+	overflow: hidden !important;
+	max-width: 350px;
+	margin-bottom: 30px;
+}
+iframe,
+embed {
+	border-radius: 0;
+	border: none;
+	margin-top: 25px;
+	overflow: "hidden !important";
+}
+
+iframe::-webkit-scrollbar {
+	display: none;
+}
+
+embed {
+	height: 500px;
+	border: none;
+	width: 365px;
+}
+
+.embed-title {
+	display: flex;
+	align-items: center;
+	margin: 5px;
+	p {
+		text-align: center;
+		font-size: 18px;
+		font-weight: 400;
+		color: rgb(107, 162, 167) !important;
+	}
+}
+.embed-title-text {
+	flex: 1;
+	cursor: pointer;
+}
+.embed-title-link {
+	margin: 0 10px;
+	cursor: pointer;
+}
+.embed-title-link:hover {
+	color: rgb(71, 67, 67);
+}

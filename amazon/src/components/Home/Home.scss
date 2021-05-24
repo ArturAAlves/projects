@@ -1,0 +1,46 @@
+.home {
+	position: relative;
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	max-width: 1500px;
+	margin-bottom: 50px;
+}
+
+.home-carousel {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	mask-image: linear-gradient(to top, transparent 0%, black 60%) !important;
+	img {
+		min-height: 200px;
+		object-fit: cover;
+	}
+	button {
+		position: relative;
+		top: 15% !important;
+		height: 50px !important;
+		opacity: 0.9 !important;
+		margin: 15px;
+	}
+}
+
+.control-dots {
+	display: none;
+}
+
+.home-items-container {
+	margin-top: -25%;
+}
+
+.home-carousel-img {
+	width: 100%;
+	object-fit: contain;
+}
+
+.home-items-row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}

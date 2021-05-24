@@ -1,0 +1,61 @@
+.story {
+	position: relative;
+	width: 120px;
+	max-width: 120px;
+	margin: 0 6px;
+	transition: transform 0.5s ease-in-out;
+	background-color: rgba(255, 255, 255, 0) !important;
+	cursor: pointer;
+}
+
+.story:hover {
+	transform: scale(1.1);
+}
+
+.story-img {
+	object-fit: cover;
+	max-width: 120px;
+	max-height: 211px;
+	height: 200px;
+	border-radius: 15px;
+	background-color: transparent;
+}
+
+// .story-img-large {
+// 	position: absolute;
+// 	z-index: 999;
+// 	top: 50%;
+// 	left: 50%;
+// 	transform: translate(-50%);
+// 	object-fit: contain;
+// 	max-width: 500px;
+// 	max-height: 50vh;
+// 	border-radius: 15px;
+// 	background-color: transparent;
+// }
+
+.story-avatar-container {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: rgb(231, 220, 220);
+	border-radius: 50%;
+	padding: 2px;
+}
+
+.story-tittle-container {
+	position: absolute;
+	color: white;
+	bottom: 20px;
+	left: 10%;
+	max-width: 60px;
+}
+
+.story-add {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 45px !important;
+	color: white;
+}

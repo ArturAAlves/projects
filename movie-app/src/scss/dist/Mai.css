@@ -1,0 +1,7 @@
+.app {
+  min-height: calc(100vh - 100px);
+  width: 100vw;
+  background-color: #39445a;
+  color: white;
+  padding-top: 100px;
+}

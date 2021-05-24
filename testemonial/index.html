@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <title>Project</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8 text-center">
+        <div class="header">
+          <h5 class="header-client">CLIENT</h5>
+          <h2 class="header-testimonial">TESTIMONIALS</h2>
+        </div>
+        <div class="container-testimonal">
+          <img class="costumer-img" src="./img/img1.jpg" alt="" />
+          <p class="Costumer-name">Maria Inês</p>
+          <p>
+            <span class="costumer-rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-full"></i></span>
+          </p>
+          <p class="costumer-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ut
+            quisquam recusandae delectus adipisci iusto.
+          </p>
+          <p><span class="quotes">&#8221;</span></p>
+          <a class="btn btn-next" href=""><span class="btn-border">></span></a>
+          <a class="btn btn-prev" href=""><span class="btn-border">
+              < </span></a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col text-center">
+        <h3>Give us your review</h3>
+      </div>
+      <br>
+      <div class="col text-center form">
+        <form action="" id="form">
+          <label for="name"> First and Last Name</label>
+          <input class="name" type="text" placeholder="Name">
+          <br>
+          <label for="number"> Score from 0 to 5</label>
+          <input class="score" type="number" placeholder=" Score" min="0" max="5" step="0.1">
+          <br>
+          <label class="review-label" for="review"> Give us your review</label>
+          <textarea class="review" name="review" id="" cols="50" rows="3" maxlength="50"></textarea>
+          <button class="btn-submit">Submit</button>
+          <br>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

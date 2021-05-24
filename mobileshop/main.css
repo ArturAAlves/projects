@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Roboto&family=Rubik:ital@1&display=swap");
+/*Global CSS*/
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    color: var(--special-black);
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, canvas {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--special);
+}
+
+button, button:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/*Typography Classes*/
+
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-raleway {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+/*Color classes*/
+
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background-color: #003859;
+}
+
+.color-secondary {
+    color: #00a5c4;
+}
+
+.color-secondary-bg {
+    background-color: #00a5c4;
+}
+
+.color-yellow {
+    color: #ffd289;
+}
+
+.color-yellow-bg {
+    background-color: #ffd289;
+}
+
+/* Top Sale */
+
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+    -webkit-transform: scale(1.07);
+    transform: scale(1.07);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    font-size: 50px;
+    color: #003859;
+}
+
+#top-sale .owl-carousel .owl-nav button:hover {
+    background-color: transparent;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0px;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0px;
+}
+
+/* special Price */
+
+.border {
+    margin-left: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.button-group button {
+    font-family: "Baloo Thambi 2", cursive;
+    font-size: 16px;
+}
+
+.nav-item {
+    margin: 0 5rem !important;
+}
+
+/* banner */
+
+.item-1, .item-2, .item-3 {
+    height: 70vh;
+    padding-top: 5vh;
+}
+
+.item-1 {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.item-2 {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.item-3 {
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+}
+
+.jumbo-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.jumbo-text-1 {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.jumbo-text-2 {
+    font-size: 4rem;
+}
+
+.jumbo-text-3 {
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.jumbo-img {
+    height: 500px;
+    display: block;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 0;
+}
+
+/* Header */
+
+.strip {
+    background-color: white !important;
+    color: b;
+}
+
+/* Image Tumbnaile */
+
+.img-tumb {
+    height: 140px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 0;
+}
+
+.img-prod {
+    height: 500px;
+    width: 80%;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 0;
+}
+
+@media only screen and (max-width: 884px) {
+    .item-1, .item-2, .item-3 {
+        height: 45vh !important;
+    }
+    .jumbo-img {
+        height: 300px;
+        display: block;
+        object-fit: contain;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #blogs .owl-carousel {
+        margin-left: 25%;
+    }
+    .nav-item {
+        margin: 1rem!important;
+    }
+    .cart {
+        margin: 1rem 0.5rem !important;
+    }
+    .item-1, .item-2, .item-3 {
+        height: 72vh !important;
+    }
+    .jumbo {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .jumbo-text {
+        margin-top: 2rem;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,200 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Franklin Gothic Medium";
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: #16a4c4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  background: linear-gradient(
+      to right,
+      rgba(75, 82, 124, 0.815),
+      rgba(46, 18, 39, 0.73)
+    ),
+    url(./img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 130vh;
+  padding-top: 30px;
+}
+
+.header-client {
+  color: orange;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-testimonial {
+  font-size: 3.5rem;
+}
+
+.container-testimonal {
+  position: relative;
+  border: 1px solid white;
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.btn {
+  font-size: 5rem;
+  color: orange;
+}
+
+.btn:visited {
+  font-size: 5rem;
+  color: orange;
+}
+
+.btn:hover {
+  font-size: 5rem;
+  color: white;
+}
+
+.btn:active {
+  color: rgb(245, 189, 84);
+}
+
+.btn-border {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid orange;
+}
+
+.btn-border:active {
+  border: 3px solid orange;
+}
+
+.btn-rotate {
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+
+.btn-next {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(100%, 100%);
+}
+
+.btn-prev {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 100%);
+}
+
+.Costumer-name {
+  font-size: 3rem;
+  margin-top: 50px !important;
+}
+
+.costumer-text {
+  font-size: 2rem;
+}
+
+.quotes {
+  font-size: 10rem;
+  color: orange;
+  line-height: initial;
+}
+
+.costumer-img {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, -50%);
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.costumer-rating {
+  color: orange;
+  font-size: 20px;
+}
+
+.costumer-rating i {
+  margin: 0 5px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  color: black;
+}
+
+textarea {
+  color: black;
+}
+
+.score {
+  width: 100px;
+}
+
+.btn-submit {
+  margin: auto;
+  justify-self: left;
+  margin-top: 15px;
+  width: 100px;
+  color: white;
+  background-color: #cb9900;
+  border: none;
+  font-size: 2rem;
+  border-radius: 2px;
+}

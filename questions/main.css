@@ -1,0 +1,102 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  color: black;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, canvas {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(229, 235, 235);
+}
+
+.tittle {
+  font-size: 3rem;
+  font-style: italic;
+  color: rgb(143, 129, 50);
+}
+
+.q-box {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0 2rem;
+  width: 60rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 9px 10px 36px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 10px 36px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 9px 10px 36px -13px rgba(0, 0, 0, 0.75);
+}
+
+.question-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.question-btn {
+  width: 20%;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+.fas {
+  cursor: pointer;
+  font-size: 2.2rem;
+  color: rgb(143, 129, 50);
+}
+
+.fas:hover {
+  animation: rotate 1s;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hr {
+  width: 50rem;
+  height: 0.2rem;
+  background-color: rgb(143, 129, 50);
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.hide-content {
+  display: none;
+}
+
+.hide-icon {
+  display: none;
+}

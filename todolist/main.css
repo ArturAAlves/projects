@@ -1,0 +1,161 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  color: rgb(56, 56, 56);
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section, canvas {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.section-center {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  padding: 2rem 1rem;
+  margin-top: 15vh;
+  border-radius: 1rem;
+  text-align: center;
+  padding-bottom: 5rem;
+  -webkit-box-shadow: -18px 13px 94px -40px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -18px 13px 94px -40px rgba(0, 0, 0, 0.75);
+  box-shadow: -18px 13px 94px -40px rgba(0, 0, 0, 0.75);
+}
+
+.todolist-form {
+  width: 100%;
+}
+
+.clear-list {
+  display: none;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  color: red;
+  cursor: pointer;
+  outline: none;
+  margin: 1rem auto;
+  letter-spacing: 0.2rem;
+}
+
+.show {
+  display: inline;
+}
+
+.tittle-container {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.submit-container {
+  margin: auto;
+  width: 70%;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.7rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  grid-template-areas: "one one one two";
+}
+
+.input {
+  background-color: rgb(227, 227, 228);
+  border: none;
+  outline: none;
+  height: 3rem;
+  border-radius: 1rem 0 0 1rem;
+  grid-area: one;
+  padding-left: 2rem;
+}
+
+.submit-btn {
+  height: 3rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(95, 158, 211, 0.685);
+  border-radius: 0 1rem 1rem 0;
+  grid-area: two;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
+
+.todo {
+  width: 86%;
+  text-align: left;
+}
+
+.todolist-btn-container {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.btn {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: red;
+  border: none;
+  background-color: rgba(245, 222, 179, 0);
+  cursor: pointer;
+  outline: none;
+}
+
+.edit-btn {
+  color: rgb(148, 224, 148);
+}
+
+.alert-danger {
+  color: red;
+}
+
+.alert-success {
+  color: green;
+}
+
+.alert-container {
+  height: 2rem;
+  margin-bottom: 1rem;
+}

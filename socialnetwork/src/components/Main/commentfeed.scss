@@ -1,0 +1,86 @@
+.commentFeed {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.commentFeed {
+	div {
+		margin: 0;
+	}
+}
+.comment {
+	display: flex;
+	margin: 15px 0 !important;
+}
+
+.comment-avatar {
+	width: min-content;
+}
+.comment-info {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-left: 10px !important;
+}
+
+.comment-reply {
+	padding: 10px !important;
+	background-color: rgba(246, 242, 233, 0.596);
+	border-radius: 40px;
+	max-width: 560px;
+	width: auto;
+}
+
+.comment-reply-footer {
+	position: relative;
+	display: flex;
+	margin-top: 5px !important   ;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.comment-reply-like {
+	margin: 0 10px !important;
+	span {
+		margin-bottom: 5px !important;
+	}
+}
+
+.comment-reply-message-sender {
+	h6 {
+		padding-left: 10px;
+		font-size: 15px;
+	}
+}
+
+.comment-reply-message {
+	p {
+		padding-left: 10px;
+		overflow-wrap: break-word;
+	}
+}
+
+.comment-reply-date {
+	font-size: 12px;
+	font-weight: 600;
+	color: gray;
+}
+
+.delete-comment {
+	background-color: transparent;
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	transform: translateY(-2px);
+	.MuiSvgIcon-root {
+		color: #c87575;
+		font-size: 18px;
+	}
+
+	@media only screen and (max-width: 400px) {
+		right: 10px;
+		top: -43px;
+	}
+}

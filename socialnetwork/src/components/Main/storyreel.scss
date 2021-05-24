@@ -1,0 +1,137 @@
+.storyreel {
+	position: relative;
+	z-index: 600;
+	display: flex;
+	max-width: 680px;
+	padding: 10px;
+	overflow: hidden;
+
+	@media only screen and (max-width: 760px) {
+		max-width: 500px;
+	}
+	@media only screen and (max-width: 660px) {
+		max-width: 400px;
+	}
+	button {
+		background-color: transparent;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.storyPopUp {
+	position: absolute;
+	background-color: rgb(238, 238, 238);
+	color: white;
+	z-index: 500;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	// max-width: 450px;
+	// max-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 390px;
+}
+
+.storyPopUpSender {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 10px;
+	padding: 15px;
+	border: 1px solid rgb(182, 182, 182);
+	border-radius: 4px;
+	box-shadow: 11px 11px 10px -9px rgba(0, 0, 0, 0.109);
+	background-color: rgb(246, 242, 233);
+	transform: translateX(-50%);
+}
+
+.storyPopUpSender-divider {
+	width: 98%;
+	height: 1px;
+	margin: 15px auto;
+}
+
+.storyPopUpSender-divider-sm {
+	height: 10px;
+}
+
+.storyPopUpSender-top {
+	display: flex;
+	align-items: center;
+
+	h4 {
+		color: black;
+		margin-left: 15px;
+	}
+}
+
+.storyPopUpSender-bottom {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+	height: auto;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
+	color: rgb(182, 182, 182);
+	border: 1px solid rgb(223, 223, 223);
+
+	input {
+		width: 100%;
+		height: 30px;
+		outline: none;
+		margin: 5px;
+		// caret-color: transparent;
+		// color: transparent;
+		// text-shadow: 0 0 0 #979797;
+		font-size: 20px;
+		border: none;
+		color: rgb(168, 168, 168);
+	}
+}
+
+.storyPopUpSender-image-preview {
+	max-width: 450px;
+	max-height: 400px;
+	overflow: hidden;
+	margin: auto;
+	text-align: center;
+
+	img {
+		border-radius: 3px;
+		object-fit: cover;
+		max-height: 550px;
+		max-width: 600px;
+	}
+}
+
+.storyPopUpSender-interface-box {
+	display: flex;
+	align-items: center;
+}
+
+.storyPopUpSender-submit {
+	border: none;
+	background-color: transparent;
+	color: rgb(114, 160, 165);
+	padding: 5;
+	font-size: 20px;
+}
+.storyPopUpSender-uploadButton {
+	cursor: pointer;
+	color: rgb(119, 218, 128);
+}
+
+.close-button {
+	position: absolute !important;
+	right: 10px;
+	top: 10px;
+	z-index: 600;
+}

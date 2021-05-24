@@ -1,0 +1,39 @@
+.patrocinio {
+	display: flex;
+	border-radius: 7px;
+	height: 130px;
+	width: 300px;
+	max-height: 150px;
+	max-width: 300px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.patrocinio:hover {
+	background-color: rgb(237, 237, 238);
+}
+
+.patrocinio-left,
+.patrocinio-right {
+	width: 100%;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.patrocinio-left {
+	img {
+		border-radius: 20px;
+		padding: 10px;
+		max-width: inherit !important;
+		object-fit: contain;
+	}
+}
+
+.patrocinio-right {
+	p {
+		color: rgb(107, 162, 167) !important;
+	}
+}

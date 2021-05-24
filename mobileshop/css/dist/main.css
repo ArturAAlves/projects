@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Roboto&family=Rubik:ital@1&display=swap");
+/*Global CSS*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  color: var(--special-black);
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+canvas {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--special);
+}
+
+button,
+button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/*Typography Classes*/
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-raleway {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*Color classes*/
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background-color: #003859;
+}
+
+.color-secondary {
+  color: #00a5c4;
+}
+
+.color-secondary-bg {
+  background-color: #00a5c4;
+}
+
+.color-yellow {
+  color: #ffd289;
+}
+
+.color-yellow-bg {
+  background-color: #ffd289;
+}
+
+/* Top Sale */
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.07);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+  transition: transform 0.5s ease;
+  font-size: 50px;
+  color: #003859;
+}
+#top-sale .owl-carousel .owl-nav button:hover {
+  background-color: transparent;
+  transform: scale(1.5);
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0px;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0px;
+}
+
+/* special Price */
+.border {
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.button-group button {
+  font-family: "Baloo Thambi 2", cursive;
+  font-size: 16px;
+}
+
+/* blogs*/
+@media only screen and (max-width: 600px) {
+  #blogs .owl-carousel {
+    margin-left: 25%;
+  }
+}
